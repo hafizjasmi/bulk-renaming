@@ -17,7 +17,8 @@ python3 Rename_Files.py
 # Input are needed when you run the Script
 You need to put your path and your naming scheme. It will rename all your files.
 
-# EXTRA !! I add run.bat as executables which you only need to place it in the same folder as py script and run it as administrator. Then it will ease your work.
+# EXTRA !! 
+I add run.bat as executables which you only need to place it in the same folder as py script and run it as administrator. Then it will ease your work.
 
 
 
