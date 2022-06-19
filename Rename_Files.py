@@ -25,20 +25,14 @@ def test():
     # verify the result
     res = os.listdir(folder)
     print(str(folder) + str(res))
-    
+test()  
 
 user_input = input("\n\nDo you want to continue on renaming? (y/n): ")
 while user_input == "y":
     print("Loop restarted again...")
     count = 0  ##Reset back the count
     test()
-    user_input1 = input("\n\nDo you want to continue on renaming? (y/n): ")
-    if user_input1 == "y":
-        count = 0  ##Reset back the count
-        test()
-    else:
-        print("Program is exiting gracefully...")
-        exit(0)
+    user_input = input("\n\nDo you want to continue on renaming? (y/n): ")
 else:
     print("Program exited successfully.")
     exit()
